@@ -8,9 +8,9 @@
 		<version>0.0.1-SNAPSHOT</version>
 	</parent>
 
-	<artifactId>apigateway</artifactId>
-	<name>apigateway</name>
-	<description>Gateway Spring Boot Microservice</description>
+	<artifactId>eureka</artifactId>
+	<name>eureka</name>
+	<description>Eureka Spring Boot Microservice</description>
 
 	<url/>
 	<licenses>
@@ -40,11 +40,7 @@
 		</dependency>
 		<dependency>
 			<groupId>org.springframework.cloud</groupId>
-			<artifactId>spring-cloud-starter-gateway-mvc</artifactId>
-		</dependency>
-		<dependency>
-			<groupId>org.springframework.cloud</groupId>
-			<artifactId>spring-cloud-starter-netflix-eureka-client</artifactId>
+			<artifactId>spring-cloud-starter-netflix-eureka-server</artifactId>
 		</dependency>
 
 		<dependency>
