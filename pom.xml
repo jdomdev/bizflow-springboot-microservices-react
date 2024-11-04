@@ -11,7 +11,7 @@
     <relativePath/> <!-- lookup parent from repository -->
   </parent>
 
-  <groupId>com.sunbit.app</groupId>
+  <groupId>io.sunbit.app</groupId>
   <artifactId>Bizflow</artifactId>
   <version>0.0.1-SNAPSHOT</version>
 
@@ -23,6 +23,7 @@
     <module>apigateway</module>
     <module>eureka</module>
     <module>config</module>
+    <module>expense</module>
   </modules>
   <properties>
     <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>

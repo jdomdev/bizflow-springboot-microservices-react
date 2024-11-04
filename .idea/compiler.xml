@@ -8,6 +8,7 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="apigateway" />
+        <module name="expense" />
         <module name="config" />
         <module name="eureka" />
       </profile>
@@ -23,6 +24,7 @@
       <module name="apigateway" options="-parameters" />
       <module name="config" options="-parameters" />
       <module name="eureka" options="-parameters" />
+      <module name="expense" options="-parameters" />
     </option>
   </component>
 </project>
