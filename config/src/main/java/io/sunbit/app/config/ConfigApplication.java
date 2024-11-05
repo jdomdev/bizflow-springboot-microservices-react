@@ -1,4 +1,4 @@
-package com.sunbit.app.config;
+package io.sunbit.app.config;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
