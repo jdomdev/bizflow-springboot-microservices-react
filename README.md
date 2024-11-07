@@ -49,7 +49,7 @@ This is an enterprise-level web application developed using **Spring Boot** for 
 ## Getting Started
 
 ### Prerequisites
-- **Java 21**: Ensure JDK 21 is installed.
+- **Java 17**: Ensure JDK 17 is installed.
 - **Node.js**: Required for running the React frontend.
 - **Docker & Kubernetes**: For containerizing and orchestrating services.
 - **PostgreSQL**: Database for storing data.
@@ -59,7 +59,7 @@ This is an enterprise-level web application developed using **Spring Boot** for 
 1. **Clone the repository**:
    ```bash
    git clone https://github.com/jdomdev/bizflow-springboot-microservices-react.git
-   cd enterprise-management-system
+   cd bizflow-springboot-microservices-react
    ```
 
 2. **Backend (Spring Boot) Setup**:
@@ -128,7 +128,8 @@ npm test
 - **Reporting and Analytics**: Generate reports for expense and inventory data.
 
 ## License
-This project is licensed under the MIT License.
+This project is licensed under the GNU General Public License v3.0. See the [LICENSE](./LICENSE) file for more details.
+With this update, it is specified that the application is under the **GPLv3** license. This informs contributors and users that they can modify and redistribute the software under the terms of this license.
 
 ## Contributing
 Pull requests are welcome. For major changes, please open an issue first to discuss what you would like to change.
